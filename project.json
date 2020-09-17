@@ -1,0 +1,22 @@
+{
+ "name": "ImageResizer",
+ "description": "Desktop application used to resize images",
+ "author": {
+  "name": "Tim Kipp",
+  "email": "timkipp.22.developer@gmail.com"
+ },
+ "version": "0.0.1",
+ "binaryname": "image-resizer",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run start"
+ },
+ "WailsVersion": "1.8.0",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": "",
+ "LdFlags": ""
+}
